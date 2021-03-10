@@ -17,7 +17,7 @@ class StackImplementTest extends org.scalatest.flatspec.AnyFlatSpec {
     assert(instance.checkEmpty()===false)
   }
 
-  "If we use checkEmpty method it " should "return true if the queue is empty" in {
+  "If we use checkEmpty method it " should "return true if the stack is empty" in {
     assert(instance.checkEmpty()===true)
   }
 
